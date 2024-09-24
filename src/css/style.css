@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../images/pattern-background-desktop.svg);
+
+}
+
+.container {
+    background-color: white;
+    border-radius: 20px;
+    width: 450px;
+    height: 630px;
+}
+
+;
+
+.summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.summary img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.summary h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: var(--neutralDarkBlue);
+    font-weight: 900;
+}
+
+.summary p {
+    color: var(--neutralBlue);
+    display: flex;
+    text-align: center;
+    width: 90%;
+    padding-left: 70px;
+
+}
+
+.annual-plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--neutralPaleBlue);
+    width: 400px;
+    height: 70px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+
+}
+
+
+.annual-plan-p {
+    display: flex;
+    color: var(--primaryBriBlue);
+    font-weight: 700;
+    justify-content: space-between;
+    text-decoration: underline;
+
+
+}
+
+.annual-plan-p:hover {
+    color: var(--BlueHover) ;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.annual-plan-h3 {
+    padding-right: 50px;
+}
+
+.annual-plan-h3 span {
+    color: var(--neutralBlue);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.payment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+
+.payment button {
+    background-color: var(--primaryBriBlue);
+    color: var(--neutralPaleBlue);
+    font-size: 14px;
+    font-weight: 700;
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 8px 16px 0 var(--neutralBlue);
+}
+
+.payment button:hover {
+    cursor: pointer;
+    background-color: var(--BlueHover);
+}
+
+.payment h3 {
+    color: var(--neutralBlue);
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.payment h3:hover {
+    cursor: pointer;
+    color: black;
+}

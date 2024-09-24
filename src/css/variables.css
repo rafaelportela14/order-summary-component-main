@@ -1,0 +1,12 @@
+:root {
+    --primaryBlue:rgb(224, 232, 255);
+    --primaryBriBlue:rgb(56, 41, 224);
+
+    --neutralPaleBlue:rgb(245, 247, 255);
+    --neutralBlue:rgb(114, 128, 167);
+    --neutralDarkBlue:rgb(31, 47, 86);
+
+    --BlueHover:rgba(56, 41, 224, 0.616);
+}
+
+
